@@ -25,7 +25,6 @@ dummy_cat <- dummy_dataset$if_good_sp
 t.test(dummy_cont~dummy_cat, mu=0, conf=0.95, var.eq=F, paired=F)
 
 # Welch Two Sample t-test
-
 # data:  dummy_cont by dummy_cat
 # t = -8.6965, df = 322.81, p-value < 2.2e-16
 # alternative hypothesis: true difference in means is not equal to 0
@@ -44,7 +43,6 @@ dummy_cat <- dummy_dataset$if_good_sp
 t.test(dummy_cont~dummy_cat, mu=0, conf=0.95, var.eq=F, paired=F)
 
 # Welch Two Sample t-test
-
 # data:  dummy_cont by dummy_cat
 # t = -1.4319, df = 16.45, p-value = 0.1709
 # alternative hypothesis: true difference in means is not equal to 0
@@ -63,7 +61,6 @@ dummy_cat <- dummy_dataset$if_good_sp
 t.test(dummy_cont~dummy_cat, mu=0, conf=0.95, var.eq=F, paired=F)
 
 # Welch Two Sample t-test
-
 # data:  dummy_cont by dummy_cat
 # t = -2.3637, df = 15.649, p-value = 0.03139
 # alternative hypothesis: true difference in means is not equal to 0
@@ -82,7 +79,6 @@ dummy_cat <- dummy_dataset$if_good_sp
 t.test(dummy_cont~dummy_cat, mu=0, conf=0.95, var.eq=F, paired=F)
 
 # Welch Two Sample t-test
-
 # data:  dummy_cont by dummy_cat
 # t = -2.9944, df = 15.515, p-value = 0.008811
 # alternative hypothesis: true difference in means is not equal to 0
@@ -102,7 +98,6 @@ dummy_cat <- dummy_dataset$if_good_sp
 t.test(dummy_cont~dummy_cat, mu=0, conf=0.95, var.eq=F, paired=F)
 
 # Welch Two Sample t-test
-
 # data:  dummy_cont by dummy_cat
 # t = 1.6616, df = 16.193, p-value = 0.1158
 # alternative hypothesis: true difference in means is not equal to 0
@@ -121,7 +116,6 @@ dummy_cat <- dummy_dataset$if_good_sp
 t.test(dummy_cont~dummy_cat, mu=0, conf=0.95, var.eq=F, paired=F)
 
 # Welch Two Sample t-test
-
 # data:  dummy_cont by dummy_cat
 # t = -2.8969, df = 16.959, p-value = 0.01005
 # alternative hypothesis: true difference in means is not equal to 0

@@ -1,7 +1,7 @@
 ## Auto SP (Service Provider) Matching Algorithm
 ### by Shithi Maitra, Jr. Data Scientist
 
-<br><img width="470" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/b219fa45-8d73-45b7-bf65-926f2165d0c0">
+<img width="470" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/b219fa45-8d73-45b7-bf65-926f2165d0c0">
 
 <br>The algo. inputs a service, an order and outputs the right SPs to serve the order. It displays a list of SPs in descending order of eligibility scores. If unable to assign a score, the algo. shows the unscored SPs randomly. The algorithm assigns a score against each SP on the basis of 9 criteria:
 
@@ -28,14 +28,14 @@ Efficacy of Recommendation Features (CSAT-centric): http://mb.sheba.xyz/question
 <br>
 Efficacy of Recommendation Features (Complaints-centric): http://mb.sheba.xyz/question/15147
 
-### Inferential Stats - Weighing Factors
+### Inferential Stats: Weighing Factors
 After having the data divided with samples on both sides, we examine the impact of each feature on the SPs’ being eligibiliy for serving the order. We examine them by performing t-tests on continuous features and Chi-squared independence tests on categorical features. 
 <br><br>
 <img width="255" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/084ee1fd-8a4d-4d1a-916d-8b7f2eda4613">
 <img width="250" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/789584c0-8580-4faa-8934-86cb356ac05b">
 <img width="508" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/a5b03c88-141d-4e47-8abf-d9674a5037c3">
 
-## Correlations - Confirming Factors
+## Correlations: Confirming Factors
 We examine the p-values and assign the greatest weightage to the feature with the least p-value. Thus we get 2 sets of weightage for CSAT/complain-centric analysis. We confirm the authenticity of the weight-sets by finding a positive Spearman's correlation between them. 
 <br><br>
 <img width="470" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/572a1ea5-e7d3-4ca6-8602-8429d37d02a0">

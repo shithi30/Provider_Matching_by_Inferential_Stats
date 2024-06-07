@@ -1,0 +1,10 @@
+feature,complaint_weightage,csat_weightage,harmonic_weightage,harmonic_wt_refined
+ITA,22,25,23.40425532,25
+expert_app_usage,17,20,18.37837838,20
+OTA,11,15,12.69230769,15
+complain_pct,5,12,7.058823529,10
+mx_revenue,25,10,14.28571429,15
+served_user_pct,0,8,0,0
+cancel_pct,0,0,0,0
+pkg_score,5,5,5,5
+avg_csat,15,5,7.5,10

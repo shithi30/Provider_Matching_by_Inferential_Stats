@@ -27,7 +27,6 @@ Efficacy of Recommendation Features (CSAT-centric): http://mb.sheba.xyz/question
 Efficacy of Recommendation Features (Complaints-centric): http://mb.sheba.xyz/question/15147
 
 ### Inferential Stats - Weighing Factors
-
 After having the data divided with samples on both sides, we examine the impact of each feature on the SPs’ being eligibiliy for serving the order. We examine them by performing t-tests on continuous features and Chi-squared independence tests on categorical features. 
 <br><br>
 <img width="255" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/084ee1fd-8a4d-4d1a-916d-8b7f2eda4613">
@@ -42,7 +41,7 @@ We examine the p-values and assign the greatest weightage to the feature with th
 We then harmonize the two sets using their harmonic mean. We simplify the weights by adjusting them to sum to 100. We observe the correlation between the harmomic weights and the adjusted weights. Finding above 95% of Spearman's correlation validates the operation.
 
 ### Algoritm in Action
-<img width="500" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/90e155c5-eb31-40c8-a733-91368c7bd9ea">
-<br><br>
 After the SPs have been ranked, we resolve any ties by the number of orders scheduled on the day and further by the number of dependent resources (so as to not overload an SP). The algorithm has a recency component implemented by considering data of the last 30 days.
+<br><br>
+<img width="500" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/90e155c5-eb31-40c8-a733-91368c7bd9ea">
 

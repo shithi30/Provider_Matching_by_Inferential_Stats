@@ -1,7 +1,9 @@
 ## Auto SP (Service Provider) Matching Algorithm
 ### by Shithi Maitra, Jr. Data Scientist
 
-The algo. inputs a service, an order and outputs the right SPs to serve the order. It displays a list of SPs in descending order of eligibility scores. If unable to assign a score, the algo. shows the unscored SPs randomly. The algorithm assigns a score against each SP on the basis of 9 criteria:
+<br><img width="470" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/b219fa45-8d73-45b7-bf65-926f2165d0c0">
+
+<br>The algo. inputs a service, an order and outputs the right SPs to serve the order. It displays a list of SPs in descending order of eligibility scores. If unable to assign a score, the algo. shows the unscored SPs randomly. The algorithm assigns a score against each SP on the basis of 9 criteria:
 
 - <strong>MX Revenue:</strong> Defined by comparison with the highest revenue from the service
 - <strong>OTA:</strong> Defined as a ratio of timely served orders to all served orders
@@ -44,4 +46,5 @@ We then harmonize the two sets using their harmonic mean. We simplify the weight
 After the SPs have been ranked, we resolve any ties by the number of orders scheduled on the day and further by the number of dependent resources (so as to not overload an SP). The algorithm has a recency component implemented by considering data of the last 30 days.
 <br><br>
 <img width="500" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/90e155c5-eb31-40c8-a733-91368c7bd9ea">
+
 

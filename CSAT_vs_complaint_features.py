@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 # import
 import pandas as pd
 from scipy.stats import spearmanr
@@ -31,11 +28,3 @@ data1 = list(df["harmonic_weightage"])
 data2 = list(df["harmonic_wt_refined"])
 corr, _ = spearmanr(list(data1), list(data2))
 print("Correlation between adjusted and harmonic means: ", corr)
-        
-
-
-# In[ ]:
-
-
-
-

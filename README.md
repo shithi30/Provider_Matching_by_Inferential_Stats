@@ -42,7 +42,7 @@ We examine the p-values and assign the greatest weightage to the feature with th
 <br><br>
 We then harmonize the two sets using their harmonic mean. We simplify the weights by adjusting them to sum up to 100. We observe the correlation between the harmomic weights and the adjusted weights. Finding above 95% of Spearman's correlation validates the operation.
 
-### Algoritm in Action
+### Algorithm in Action
 After the SPs have been ranked, we resolve any ties by the number of orders scheduled on the day and further by the number of dependent resources (so as to not overload an SP). The algorithm has a recency component implemented by considering data of the last 30 days.
 <br><br>
 <img width="500" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/90e155c5-eb31-40c8-a733-91368c7bd9ea">

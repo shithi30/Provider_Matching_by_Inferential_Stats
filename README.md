@@ -1,5 +1,5 @@
 ## Auto SP (Service Provider) Matching Algorithm
-### by Shithi Maitra, Jr. Data Scientist
+**by Shithi Maitra, Jr. Data Scientist**
 
 <img width="470" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/b219fa45-8d73-45b7-bf65-926f2165d0c0">
 
@@ -35,7 +35,7 @@ After having the data divided with samples on both sides, we examine the impact 
 <img width="250" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/789584c0-8580-4faa-8934-86cb356ac05b">
 <img width="508" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/a5b03c88-141d-4e47-8abf-d9674a5037c3">
 
-## Correlations: Confirming Factors
+### Correlations: Confirming Factors
 We examine the p-values and assign the greatest weightage to the feature with the least p-value. Thus we get 2 sets of weightage for CSAT/complain-centric analysis. We confirm the authenticity of the weight-sets by finding a positive Spearman's correlation between them. 
 <br><br>
 <img width="470" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/572a1ea5-e7d3-4ca6-8602-8429d37d02a0">

@@ -22,9 +22,9 @@ We resonate customers' voice while selecting SPs. Customers' opinions are reflec
 <br>
 <img width="900" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/2a2597ef-2c08-4ad0-b15d-95ed93ffc021">
 <br><br>
-Efficacy of Recommendation Features (CSAT-centric): http://mb.sheba.xyz/question/15112
+Efficacy of Recommendation Features (CSAT-centric), [here](http://mb.sheba.xyz/question/15112).
 <br>
-Efficacy of Recommendation Features (Complaints-centric): http://mb.sheba.xyz/question/15147
+Efficacy of Recommendation Features (Complaints-centric), [here](http://mb.sheba.xyz/question/15147).
 
 ### Inferential Stats: Weighing Factors
 After having the data divided with samples on both sides, we examine the impact of each feature on the SPs’ being eligibiliy for serving the order. We examine them by performing t-tests on continuous features and Chi-squared independence tests on categorical features. 
@@ -45,5 +45,5 @@ After the SPs have been ranked, we resolve any ties by the number of orders sche
 <br><br>
 <img width="500" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/90e155c5-eb31-40c8-a733-91368c7bd9ea">
 
-*<strong>Note:</strong> Analyses partially revealed due to data governance policy*
+*<strong>Note:</strong> Analyses partially revealed due to data governance policy. Links disabled outside organization.*
 

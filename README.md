@@ -15,8 +15,6 @@
 - <strong>Served Users' Ratio:</strong> Ratio of served users over all users who placed orders
 - <strong>Cancel Ratio:</strong> Defined as a ratio of canceled orders over all concluded orders
 
-*<strong>Note:</strong> Analyses partially revealed due to data governance policy*
-
 ### Dataset
 We resonate customers' voice while selecting SPs. Customers' opinions are reflected in 2 params: CSAT and complaints. Hence we perform a dual analysis on all SPs by dividing them into 2 classes: eligible and ineligible, based on separate thresholds (4.6 for CSAT, 0.2 for complaints). 
 <br><br>
@@ -47,4 +45,5 @@ After the SPs have been ranked, we resolve any ties by the number of orders sche
 <br><br>
 <img width="500" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/90e155c5-eb31-40c8-a733-91368c7bd9ea">
 
+*<strong>Note:</strong> Analyses partially revealed due to data governance policy*
 

@@ -1,5 +1,5 @@
-## Auto SP (Service Provider) Matching Algorithm
-**by Shithi Maitra, Jr. Data Scientist**
+## Automatic SP (Service Provider) Matching Algorithm
+**by Shithi Maitra, Jr. Data Scientist | Sheba Platform Ltd**
 
 <img width="470" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/b219fa45-8d73-45b7-bf65-926f2165d0c0">
 

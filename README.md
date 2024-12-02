@@ -1,6 +1,8 @@
 ## Automatic SP (Service Provider) Matching Algorithm
 **by Shithi Maitra, Jr. Data Scientist | Sheba Platform Ltd**
 
+**Tech Stack:** t/Chi-squared tests - `R` , Spearman's r - `Python` , Database - `MySQL` , Reporting - `MetaBase`
+
 <img width="470" alt="ee4" src="https://github.com/shithi30/Provider_Matching_by_Inferential_Stats/assets/43873081/b219fa45-8d73-45b7-bf65-926f2165d0c0">
 
 <br>The algo. inputs a service, an order and outputs the right SPs to serve the order. It displays a list of SPs in descending order of eligibility scores. If unable to assign a score, the algo. shows the unscored SPs randomly. The algorithm assigns a score against each SP on the basis of 9 criteria:
